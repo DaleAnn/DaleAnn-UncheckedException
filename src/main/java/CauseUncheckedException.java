@@ -14,6 +14,8 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int[] arr = {0,2,3,4,5};
+        arr[8] = 4;
 
     }
 }
